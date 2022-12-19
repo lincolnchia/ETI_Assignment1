@@ -27,7 +27,7 @@ ID: S10205479<br />
 14. **End a ride** This allows the driver to end a ride witha yes or no trigger which would end the ride for the user.
 
 ## Design Consideration 
-**Type of checking** 
+**Type of menu** 
 To ensure that a user is able to have both a driver and user account, code allows for user to only user to only select either passenger or driver menu
 
 **Checking of trips for driver**
