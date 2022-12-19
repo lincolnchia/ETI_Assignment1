@@ -39,6 +39,7 @@ For starting and stopping rides the database has a column which contians isstart
 
 ## Architecture diagrams 
 ![image](https://user-images.githubusercontent.com/73088199/208431452-169584aa-522b-4200-9e01-23eb20ed3b86.png)
+
 Passenger and Driver connects to user api which connects passenger and driver database. this includes functions such as logining in, creating account. However, they also interact with the trip api in order to start and maintain the rides which is connected to the trip api. 
 
 
