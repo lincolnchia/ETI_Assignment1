@@ -73,7 +73,8 @@ CREATE TABLE `driver` (
   `Password` varchar(45) DEFAULT NULL,
   PRIMARY KEY (`driverId`)
 )
-2.Passenger Database
+
+2. Passenger Database
 CREATE TABLE `passenger` (
   `ID` int NOT NULL AUTO_INCREMENT,
   `FirstName` varchar(30) NOT NULL,
@@ -83,7 +84,8 @@ CREATE TABLE `passenger` (
   `Password` varchar(45) NOT NULL,
   PRIMARY KEY (`ID`)
 )
-3.Trip Database
+
+3. Trip Database
 CREATE TABLE `trip` (
   `tripId` int NOT NULL AUTO_INCREMENT,
   `startPostal` int NOT NULL,
@@ -95,3 +97,4 @@ CREATE TABLE `trip` (
   `createdAt` datetime NOT NULL,
   PRIMARY KEY (`tripId`)
 )
+
