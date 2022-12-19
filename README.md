@@ -31,14 +31,14 @@ ID: S10205479<br />
 To ensure that a user is able to have both a driver and user account, code allows for user to only user to only select either passenger or driver menu
 
 **Checking of trips for driver**
-For riders to track their trips i have a isAvail property in their database. This is used to check if the driver currently has a ride for assigning rides to the trips. Assigning of rides is done automatically.
+For driver to track their trips there is a isAvail property in driver database. This is used to check if the driver currently has a ride for assigned to it without checking the trips database. Assigning of rides is done automatically.
 
 **Checking of start and stoping rides** 
-For starting and stopping rides the database has a column which contians isstarted and isCompleted this is to ensure that the driver has started a ride and is ready to end it. Once a ride is completed the driver will be reset to available.
+For starting and stopping rides the database has a column which contains isstarted and isCompleted this is to ensure that the driver has started a ride and is ready to end it. Once a ride is completed the driver will be reset to available.
 
 
 ## Architecture diagrams 
-![image](https://user-images.githubusercontent.com/73088199/208431452-169584aa-522b-4200-9e01-23eb20ed3b86.png)
+![image](https://user-images.githubusercontent.com/73088199/208442573-7683259b-2b0e-4ad5-a416-ab5504539086.png)
 
 Passenger and Driver connects to user api which connects passenger and driver database. this includes functions such as logining in, creating account. However, they also interact with the trip api in order to start and maintain the rides which is connected to the trip api. 
 
