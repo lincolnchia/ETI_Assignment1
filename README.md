@@ -15,7 +15,7 @@ ID: S10205479<br />
 2. **Login Passenger** Ask the user to input in their email address as well as their passwords in order to login in to their account
 3. **Create Passenger** Allow users to create their own account by inputing their first name , last name, mobile number and email address while having a password. Ids are auto assigned through auto increment.
 4. **Quit menu** Allow users to leave the system or to go back one menu
-5. **Update Passegner** Allows user to change their information including their password information 
+5. **Update Passenger** Allows user to change their information including their password information 
 6. **Display Trip History** Allows user to view their trip histories in reverse chronological order.
 7. **Request trip** Allows user to input in their current location and destination location and checks if there is an avaliable driver to start the trip.
 8. **Login Driver** Allow driver to login using their email address and their password
