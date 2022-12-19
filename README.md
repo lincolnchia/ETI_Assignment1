@@ -1,8 +1,8 @@
 # ETI_Assignment1
 
-Name: lincoln<br />
+Name: lincoln Chia<br />
 Class: P03<br />
-ID: 10203100B<br />
+ID: S10205479<br />
 
 ## Contents
 1. Requirements and design Considerations
